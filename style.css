@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&family=Mynerve&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+.container {
+	width: 800px;
+	margin: 30px auto;
+	background-color: coral;
+	color: black;
+	padding: 15px;
+}
+.button-group {
+	/* width: 300px; */
+	/* margin: 20px auto; */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 20px;
+}
+.btn {
+	padding: 10px 15px;
+	border-radius: 6px;
+	border: 1px solid gray;
+	font-size: 18px;
+  background-color: blueviolet;
+}
+.title {
+  font-family: 'Ephesis', cursive;
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+}
+.para {
+  line-height: 2;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
