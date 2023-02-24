@@ -5,9 +5,19 @@
 .container {
 	width: 800px;
 	margin: 30px auto;
-	background-color: coral;
+	background-color: rgb(193, 172, 20);
 	color: black;
 	padding: 15px;
+	align-content: center;
+}
+.image{
+	margin: 30px auto;
+	text-align: center;
+}
+
+.image img {
+	width: 100px;
+	height: auto;
 }
 .button-group {
 	/* width: 300px; */
@@ -24,7 +34,7 @@
 	border-radius: 6px;
 	border: 1px solid gray;
 	font-size: 18px;
-  background-color: blueviolet;
+  background-color: rgb(43, 226, 125);
 }
 .title {
   font-family: 'Ephesis', cursive;
