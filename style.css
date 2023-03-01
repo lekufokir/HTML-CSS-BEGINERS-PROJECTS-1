@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Gajraj+One&family=Mynerve&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+*,
+html {
+	box-sizing: border-box;
+}
 
 .container {
-	width: 800px;
+	width: 50%;
 	margin: 30px auto;
 	background-color: rgb(193, 172, 20);
 	color: black;
 	padding: 15px;
 	align-content: center;
+	border: 15px solid green;
+	border-radius: 8px;
 }
-.image{
+.image {
 	margin: 30px auto;
 	text-align: center;
 }
@@ -31,19 +37,28 @@
 }
 .btn {
 	padding: 10px 15px;
-	border-radius: 6px;
-	border: 1px solid gray;
-	font-size: 18px;
-  background-color: rgb(43, 226, 125);
+	text-transform: uppercase;
+	border-radius: 10px;
+	border-color: bisque;
+	text-decoration: none;
+}
+.primary-btn {
+	background: yellowgreen;
+	color: white;
 }
 .title {
-  font-family: 'Ephesis', cursive;
-  width: 100%;
-  display: flex;
-  justify-content: center;  
+	font-family: "Ephesis", cursive;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 .para {
-  line-height: 2;
-  font-size: 15px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	line-height: 2;
+	font-size: 15px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.css-box-model {
+	border: 15px solid green;
+	padding: 50px;
+	align-content: center;
 }
